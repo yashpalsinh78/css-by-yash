@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: Rubik,sans-serif;
+            font-weight: 700;
+         }
+      #card{
+            border: 1px solid rgb(243, 229, 229);
+            border-radius:7px;
+            width: 400px;
+            height: 400px;
+            padding: 15px;
+            margin-left:400px;
+            margin-top:100px;
+            box-shadow: 4px 4px 4px rgb(169, 166, 166);
+        }
+        #go{
+            color: rgb(102 116 204)
+        }
+        #yup{
+            color: rgb(119 124 133);
+        }
+        #hi{
+
+            color: rgb(255 255 255);
+        }
+        
+        /* rgb(255 255 255)
+         */
+
+      .bg-gr{
+        background-color: rgb(29 209 161);
+        border-radius: 4px;
+      }
+      #ji{
+        margin: 1px;
+        font-weight: 400;
+        padding: 1px;
+      }
+         
+
+    </style>
+</head>
+<body>
+    <div id="card">
+        <a href="https://www.thecodehelp.in">
+            <img src="https://codehelp.s3.ap-south-1.amazonaws.com/Web_Dev_670f900667.jpg"  alt="WEB IMAGE" width="400px" height="250px">
+        </a>
+        <div id="ji">
+            <h1>Web Development Master Course @dot Batch</h1>
+        <hr>
+        <span id="go"> <strong>&#8377 4500</strong></span>
+        <span id="yup"><strong><del>&#8377 6999</del></strong></span>
+        <span id="hi" class="bg-gr">42% off</span>
+        </div>
+    </div>
+</body>
+</html>
